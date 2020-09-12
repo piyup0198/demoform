@@ -1,0 +1,52 @@
+form{
+	width: 500px;
+	margin-left: 230px;
+	border: solid black 2px;
+	text-align: center;
+	background:	plum;
+	height: 100vh;
+}
+
+h1{
+   text-align: center; 
+   text-decoration:initial;
+}
+
+h1:after{
+	content: "";
+	border: solid black 2px;
+}
+
+h1:before{
+	content: "";
+	border: solid black 2px;
+}
+
+
+
+input{
+	margin-top: 20px;
+	color: black;
+	background: lavender;
+}
+
+select{
+	margin-top: 20px;
+	color: black;
+	background: lavender;
+}
+
+button{
+	background-color: 	mediumorchid;
+	margin-top: 20px;
+}
+
+button:hover{
+	background-color: purple;
+	color: white;
+}
+
+textarea{
+	margin-top: 20px;
+	text-align: center;
+}
